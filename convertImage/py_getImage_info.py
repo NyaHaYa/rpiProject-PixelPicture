@@ -3,6 +3,9 @@ from PIL import Image
 #   Converted File Name
 converted_file_name = 'converted_image/python.jpg'
 
+# Save RGB Value in List
+rgb = []
+
 #   Dir Name
 #dir_converted = '../convertImage/converted_image/'
 
@@ -18,6 +21,6 @@ cnt = 0
 
 for i in range(1, 33):
     for j in range(1, 33):
+        rgb.append(converted_image.getpixel((i-1,j-1)))
+        print(rgb[cnt])
         cnt = cnt + 1
-        print(cnt, ':', i, ',', j)
-        print(converted_image.getpixel((i-1, j-1)))
