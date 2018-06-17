@@ -5,6 +5,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="py_convert_image" />
+          <option value="py_getImage_info" />
+          <option value="py_convert_image.main.convert" />
         </list>
       </option>
     </inspection_tool>
