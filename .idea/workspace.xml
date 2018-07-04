@@ -4,13 +4,12 @@
     <list default="true" id="9bd915c2-aa11-43cf-b48b-a72b8a2b64ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converted_image/c_asdf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converted_image/python.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converted_image/test1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converted_image/test1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino-mega/RGBmatrixPanel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-mega/RGBmatrixPanel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino-mega/RGBmatrixPanel.h" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-mega/RGBmatrixPanel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_convert_image/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_convert_image/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_convert_image/py_convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_convert_image/py_convert_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_convert_image/py_fileIO_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_convert_image/py_fileIO_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_convert_image/py_getImage_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_convert_image/py_getImage_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_convert_image/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1529171224905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
-    <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$py_getImage_info.coverage" NAME="py_getImage_info Coverage Results" MODIFIED="1529233567110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
-    <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$main.coverage" NAME="main Coverage Results" MODIFIED="1529232465044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
+    <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$py_getImage_info.coverage" NAME="py_getImage_info Coverage Results" MODIFIED="1530576044841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
+    <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$main.coverage" NAME="main Coverage Results" MODIFIED="1530702685308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
     <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$convertImage.coverage" NAME="convertImage Coverage Results" MODIFIED="1528895564876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/convertImage" />
     <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$py_convert_image.coverage" NAME="py_convert_image Coverage Results" MODIFIED="1529171893284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
     <SUITE FILE_PATH="coverage/rpiProject_PixelPicture$py_getImage_info__1_.coverage" NAME="py_getImage_info (1) Coverage Results" MODIFIED="1529171728908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_convert_image" />
@@ -30,37 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="py_convert_image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_convert_image/py_convert_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="py_getImage_info.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_convert_image/py_getImage_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/converted_image/test1.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_convert_image/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="py_fileIO_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_convert_image/py_fileIO_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,9 +81,10 @@
         <option value="$PROJECT_DIR$/convertImage/test.py" />
         <option value="$PROJECT_DIR$/convertImage/py_getImage_info.py" />
         <option value="$PROJECT_DIR$/py_convert_image/test.py" />
-        <option value="$PROJECT_DIR$/py_convert_image/main.py" />
         <option value="$PROJECT_DIR$/py_convert_image/py_convert_image.py" />
         <option value="$PROJECT_DIR$/py_convert_image/py_getImage_info.py" />
+        <option value="$PROJECT_DIR$/py_convert_image/main.py" />
+        <option value="$PROJECT_DIR$/py_convert_image/py_fileIO_list.py" />
       </list>
     </option>
   </component>
@@ -104,7 +99,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="109" />
-    <option name="y" value="129" />
+    <option name="y" value="54" />
     <option name="width" value="1540" />
     <option name="height" value="1000" />
   </component>
@@ -113,32 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
-              <item name="converted_image" type="cbb8eebc:String" user="converted_image" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
-              <item name="image" type="cbb8eebc:String" user="image" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
-              <item name="py_convert_image" type="cbb8eebc:String" user="py_convert_image" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +124,47 @@
               <item name="rpiProject-PixelPicture" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpiProject-PixelPicture" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="arduino-mega" type="cbb8eebc:String" user="arduino-mega" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="converted_image" type="cbb8eebc:String" user="converted_image" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="image" type="cbb8eebc:String" user="image" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="list" type="cbb8eebc:String" user="list" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="py_convert_image" type="cbb8eebc:String" user="py_convert_image" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rpiProject-PixelPicture" type="cbb8eebc:String" user="rpiProject-PixelPicture" />
+              <item name="test" type="cbb8eebc:String" user="test" />
             </path>
           </expand>
           <select />
@@ -186,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py_getImage_info">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rpiProject-PixelPicture" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,8 +261,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.py_getImage_info" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.py_getImage_info" />
         <item itemvalue="Python.py_convert_image" />
       </list>
     </recent_temporary>
@@ -271,30 +281,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="129" width="1540" height="1000" extended-state="0" />
+    <frame x="109" y="54" width="1540" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41590908" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41590908" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18758345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18958612" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284091" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886364" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886364" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284091" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +314,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/py_convert_image/py_convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converted_image/test1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_convert_image/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_convert_image/py_getImage_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_convert_image/py_convert_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -318,9 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/king.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/converted_image/king.png" />
     <entry file="file://$PROJECT_DIR$/image/asdf.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -329,14 +364,12 @@
         <state relative-caret-position="195">
           <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/test0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/converted_image/test0.jpg" />
     <entry file="file://$PROJECT_DIR$/image/python.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -399,48 +432,74 @@
     <entry file="file://$PROJECT_DIR$/py_convert_image/test.py" />
     <entry file="file://$PROJECT_DIR$/converted_image/test3.png" />
     <entry file="file://$PROJECT_DIR$/converted_image/c_asdf.jpg" />
+    <entry file="file://$PROJECT_DIR$/converted_image/test1.jpg" />
+    <entry file="file://$PROJECT_DIR$/converted_image/test0.jpg" />
+    <entry file="file://$PROJECT_DIR$/converted_image/king.png" />
+    <entry file="file://$PROJECT_DIR$/converted_image/test2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_convert_image/py_convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/test2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/test1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/image/python.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/image/asdf.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/test1.jpg">
+    <entry file="file://$PROJECT_DIR$/image/eee.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/test0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/king.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/converted_image/test2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_convert_image/py_convert_image.py">
+    <entry file="file://$PROJECT_DIR$/listeee.png.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret column="166" lean-forward="true" selection-start-column="166" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/eee.pngtest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_convert_image/py_fileIO_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_convert_image/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/eee.png.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/converted_image/test1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converted_image/eee.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/py_convert_image/py_getImage_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>

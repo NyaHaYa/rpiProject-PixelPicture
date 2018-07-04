@@ -7,6 +7,8 @@
           <option value="py_convert_image" />
           <option value="py_getImage_info" />
           <option value="py_convert_image.main.convert" />
+          <option value="py_fileIO_list" />
+          <option value="py_convert_image.main.fileName" />
         </list>
       </option>
     </inspection_tool>
