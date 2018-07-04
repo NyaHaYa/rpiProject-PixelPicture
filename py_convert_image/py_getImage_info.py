@@ -1,8 +1,8 @@
 from PIL import Image
 
-def get_info():
+def get_info(_convert_image_name):
     #   Converted File Name
-    converted_file_name = '../converted_image/test1.png' #+ _converted_image_name
+    converted_file_name = '../converted_image/' + _convert_image_name
 
     # Save RGB Value in List
     rgb = []
@@ -12,7 +12,7 @@ def get_info():
     print(converted_image)
 
     #   Print Image Size
-    #print(converted_image.size)
+    print(converted_image.size)
 
     #   Get Pixel Code & Save RGB(tuple) in List(1024)
     cnt = 0
@@ -20,7 +20,7 @@ def get_info():
     for i in range(1, 33):
         for j in range(1, 33):
             rgb.append(list(converted_image.getpixel((i - 1, j - 1))))
-            print(rgb[cnt])
+            #print(rgb[cnt])
 
             if rgb[cnt][0] <= 31:
                 rgb[cnt][0] = 0
@@ -99,5 +99,3 @@ def get_info():
             cnt = cnt + 1
 
     return rgb
-
-print(get_info())
