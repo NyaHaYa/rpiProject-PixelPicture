@@ -1,14 +1,15 @@
-from PIL import Image
 import py_convert_image
-#import py_getImage_info
-import time
+import py_getImage_info
+import py_fileIO_list
 
 #   Get File Names
 fileName = input('INPUT FILE NAME >> ')
 convert_image_name = input('INPUT CONVERT IMAGE NAME >> ')
 
-py_convert_image.convert(fileName, convert_image_name)
+def start(_fileName, _convert_image_name):
 
-#time.sleep(2)
+    py_convert_image.convert(_fileName, _convert_image_name)
 
-#print(py_getImage_info.get_info(convert_image_name))
+    return py_getImage_info.get_info(_convert_image_name)
+
+py_fileIO_list._fileIO_list(fileName, start(fileName, convert_image_name))
