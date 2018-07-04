@@ -16,5 +16,5 @@ def convert(_image_name, _convert_iamge_name):
     #   Save Converted Image
     im.save(dir_convert_image + _convert_iamge_name)
 
-    return _convert_iamge_name
+    return '_convert_iamge_name'
 
