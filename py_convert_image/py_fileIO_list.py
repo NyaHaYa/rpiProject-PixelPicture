@@ -1,5 +1,5 @@
 def _fileIO_list(_fileName, data):
-    f = open("/Users/gameplay/Desktop/rpiProject-PixelPicture/list/" + _fileName + ".txt", 'w')
+    f = open("/home/pi/rpiProject-PixelPicture/list/" + _fileName + ".txt", 'w')
 
     idata = "%s" % data
 
