@@ -8,3 +8,5 @@ def _fileIO_list(_fileName, data):
 
     f.write(replace2_data)
     f.close()
+
+    return replace2_data
